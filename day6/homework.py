@@ -1,6 +1,16 @@
-num1 = int(input("please enter your number 1"))
-num2= int(input("please enter your number 2"))
-num3= int (input("please enter your number 3"))
+# რიცხვების შემოწმება
+num1 = int(input("შეიყვანეთ პირველი რიცხვი: "))
+num2 = int(input("შეიყვანეთ მეორე რიცხვი: "))
+num3 =int(input("შეიყვანეთ მესამე რიცხვი: "))
 
-print(num1 + num2 + num3)
+# მათემატიკური ოპერაციები
+sum_result = num1 + num2 + num3
+difference_result = num1 - num2 - num3
+product_result = num1 * num2 * num3
+
+# გამობეჭდვა
+print("ჯამი:", sum_result)
+print("სხვადასხვა:", difference_result)
+print("ნამრავლი:", product_result)
+
 
